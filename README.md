@@ -1,6 +1,4 @@
-# Learn Data Science with Emmanuel Odenyire
-
-Data Science Learning Journey with Emmanuel Odenyire
+Learn Data Science with Emmanuel Odenyire
 ====================================================
 
 Welcome to the **Data Science Learning Journey** repository! This repository is designed to accompany our year-long exploration into the field of data science, providing a structured and comprehensive path for learners at all levels.
