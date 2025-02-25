@@ -1,1 +1,1 @@
-# Learn DataScience With EmmanuelOdenyire
+# Learn Data Science with Emmanuel Odenyire
