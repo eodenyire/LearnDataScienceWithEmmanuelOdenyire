@@ -1,7 +1,13 @@
 Learn Data Science with Emmanuel Odenyire
 ====================================================
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+
 Welcome to the **Data Science Learning Journey** repository! This repository is designed to accompany our year-long exploration into the field of data science, providing a structured and comprehensive path for learners at all levels.
+
+> 🚀 **New here?** Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!
 
 Repository Overview
 -------------------
@@ -57,6 +63,7 @@ Example structure:
 ├── resources
 │   └── README.md
 ├── requirements.txt
+├── verify_setup.py
 ├── LICENSE
 ├── CONTRIBUTING.md
 └── README.md
@@ -78,12 +85,17 @@ To get the most out of this repository:
     pip install -r requirements.txt
     ```
     
-3.  **Launch Jupyter Notebook**:
+3.  **Verify Your Setup**:
+    ```bash
+    python verify_setup.py
+    ```
+    
+4.  **Launch Jupyter Notebook**:
     ```bash
     jupyter notebook
     ```
     
-4.  **Explore the Notebooks**: Open the notebook corresponding to the day's lesson and follow along.
+5.  **Start Learning**: Navigate to `Month_01_Python_Basics` and open the first notebook!
     
 
 Monthly Themes
