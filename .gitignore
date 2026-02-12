@@ -47,7 +47,7 @@ env/
 *.xls
 *.db
 *.sqlite
-!example_data.csv
+!sample_sales.csv
 
 # Models
 *.pkl
