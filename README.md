@@ -43,18 +43,45 @@ The repository is organized into directories for each month, reflecting the them
 
 Example structure:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ├── Month_01_Python_Basics  │   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb  │   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb  │   └── ...  ├── Month_02_Data_Analysis_with_Pandas_and_NumPy  │   ├── Day_32_Introduction_to_Pandas.ipynb  │   ├── Day_33_DataFrames_and_Series.ipynb  │   └── ...  └── ...   `
+```
+├── Month_01_Python_Basics
+│   ├── README.md
+│   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb
+│   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb
+│   └── Day_03_Variables_and_Data_Types.ipynb
+├── Month_02_Data_Analysis_with_Pandas_and_NumPy
+│   └── README.md
+├── datasets
+│   ├── README.md
+│   └── sample_sales.csv
+├── resources
+│   └── README.md
+├── requirements.txt
+├── LICENSE
+├── CONTRIBUTING.md
+└── README.md
+```
 
 Getting Started
 ---------------
 
 To get the most out of this repository:
 
-1.  git clone https://github.com/yourusername/data-science-learning-journey.git
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/eodenyire/LearnDataScienceWithEmmanuelOdenyire.git
+    cd LearnDataScienceWithEmmanuelOdenyire
+    ```
     
-2.  pip install -r requirements.txt
+2.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
     
-3.  jupyter notebook
+3.  **Launch Jupyter Notebook**:
+    ```bash
+    jupyter notebook
+    ```
     
 4.  **Explore the Notebooks**: Open the notebook corresponding to the day's lesson and follow along.
     
