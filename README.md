@@ -1,7 +1,13 @@
 Learn Data Science with Emmanuel Odenyire
 ====================================================
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+
 Welcome to the **Data Science Learning Journey** repository! This repository is designed to accompany our year-long exploration into the field of data science, providing a structured and comprehensive path for learners at all levels.
+
+> 🚀 **New here?** Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!
 
 Repository Overview
 -------------------
@@ -43,20 +49,53 @@ The repository is organized into directories for each month, reflecting the them
 
 Example structure:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   ├── Month_01_Python_Basics  │   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb  │   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb  │   └── ...  ├── Month_02_Data_Analysis_with_Pandas_and_NumPy  │   ├── Day_32_Introduction_to_Pandas.ipynb  │   ├── Day_33_DataFrames_and_Series.ipynb  │   └── ...  └── ...   `
+```
+├── Month_01_Python_Basics
+│   ├── README.md
+│   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb
+│   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb
+│   └── Day_03_Variables_and_Data_Types.ipynb
+├── Month_02_Data_Analysis_with_Pandas_and_NumPy
+│   └── README.md
+├── datasets
+│   ├── README.md
+│   └── sample_sales.csv
+├── resources
+│   └── README.md
+├── requirements.txt
+├── verify_setup.py
+├── LICENSE
+├── CONTRIBUTING.md
+└── README.md
+```
 
 Getting Started
 ---------------
 
 To get the most out of this repository:
 
-1.  git clone https://github.com/yourusername/data-science-learning-journey.git
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/eodenyire/LearnDataScienceWithEmmanuelOdenyire.git
+    cd LearnDataScienceWithEmmanuelOdenyire
+    ```
     
-2.  pip install -r requirements.txt
+2.  **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
     
-3.  jupyter notebook
+3.  **Verify Your Setup**:
+    ```bash
+    python verify_setup.py
+    ```
     
-4.  **Explore the Notebooks**: Open the notebook corresponding to the day's lesson and follow along.
+4.  **Launch Jupyter Notebook**:
+    ```bash
+    jupyter notebook
+    ```
+    
+5.  **Start Learning**: Navigate to `Month_01_Python_Basics` and open the first notebook!
     
 
 Monthly Themes
