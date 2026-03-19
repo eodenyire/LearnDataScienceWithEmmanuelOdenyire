@@ -54,9 +54,17 @@ Example structure:
 │   ├── README.md
 │   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb
 │   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb
-│   └── Day_03_Variables_and_Data_Types.ipynb
+│   ├── Day_03_Variables_and_Data_Types.ipynb
+│   ├── Day_04_Operators_and_Expressions.ipynb
+│   └── Day_05_Control_Flow.ipynb
 ├── Month_02_Data_Analysis_with_Pandas_and_NumPy
-│   └── README.md
+│   ├── README.md
+│   ├── Week_1_Introduction_to_NumPy.ipynb
+│   ├── Week_2_Advanced_NumPy.ipynb
+│   ├── Week_3_Pandas_Series_and_DataFrames.ipynb
+│   ├── Week_4_Reading_and_Writing_Data.ipynb
+│   └── Week_5_Data_Cleaning_and_Transformation.ipynb
+│   ... (5 notebooks per month, Months 1–12)
 ├── datasets
 │   ├── README.md
 │   └── sample_sales.csv

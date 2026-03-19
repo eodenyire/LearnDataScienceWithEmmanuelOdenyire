@@ -16,3 +16,13 @@ Learn to work with numerical data using NumPy and data manipulation with Pandas.
 ## Key Libraries
 - NumPy
 - Pandas
+
+## Notebooks
+
+| Notebook | Topic |
+|----------|-------|
+| [Week 1: Introduction to NumPy](Week_1_Introduction_to_NumPy.ipynb) | Arrays, dtypes, indexing, vectorised operations |
+| [Week 2: Advanced NumPy](Week_2_Advanced_NumPy.ipynb) | Broadcasting, linear algebra, random number generation |
+| [Week 3: Pandas Series and DataFrames](Week_3_Pandas_Series_and_DataFrames.ipynb) | Series, DataFrames, indexing, filtering, groupby |
+| [Week 4: Reading and Writing Data](Week_4_Reading_and_Writing_Data.ipynb) | CSV, Excel, JSON, SQL, parquet I/O |
+| [Week 5: Data Cleaning and Transformation](Week_5_Data_Cleaning_and_Transformation.ipynb) | Missing values, duplicates, reshaping, merging |
