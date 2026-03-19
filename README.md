@@ -276,3 +276,124 @@ License
 This repository is licensed under the MIT License. You are free to use, modify, and distribute the content, provided proper attribution is given.
 
 Embark on this journey with us and transform your data science skills. Happy learning!
+
+---
+
+## Phase-Based Curriculum Structure
+
+The bootcamp is organized into **7 phases** spanning 12 months:
+
+| Phase | Name | Duration | Focus | Directory |
+|-------|------|----------|-------|-----------|
+| Phase 0 | Foundations | 2 weeks | Setup, Git, Colab | [Phase_0_Foundations/](Phase_0_Foundations/) |
+| Phase 1 | Python & Math | 2 months | Python, NumPy, Pandas, Statistics | [Phase_1_Python_Math/](Phase_1_Python_Math/) |
+| Phase 2 | Data Analysis | 2 months | Visualization, Cleaning, EDA | [Phase_2_Data_Analysis/](Phase_2_Data_Analysis/) |
+| Phase 3 | Machine Learning | 2 months | Supervised/Unsupervised ML | [Phase_3_ML/](Phase_3_ML/) |
+| Phase 4 | Deep Learning | 2 months | CNNs, RNNs, Transformers | [Phase_4_DL/](Phase_4_DL/) |
+| Phase 5 | Specialization | 2 months | DE / MLOps / NLP / CV tracks | [Phase_5_Specialization/](Phase_5_Specialization/) |
+| Phase 6 | Capstone | 1 month | End-to-end project | [Phase_6_Capstone/](Phase_6_Capstone/) |
+
+## Specialization Tracks (Phase 5)
+
+| Track | Focus | Directory |
+|-------|-------|-----------|
+| Track 1 | Data Engineering | [Phase_5_Specialization/Track_1_Data_Engineering/](Phase_5_Specialization/Track_1_Data_Engineering/) |
+| Track 2 | MLOps | [Phase_5_Specialization/Track_2_MLOps/](Phase_5_Specialization/Track_2_MLOps/) |
+| Track 3 | NLP | [Phase_5_Specialization/Track_3_NLP/](Phase_5_Specialization/Track_3_NLP/) |
+| Track 4 | Computer Vision | [Phase_5_Specialization/Track_4_Computer_Vision/](Phase_5_Specialization/Track_4_Computer_Vision/) |
+
+## Weekly Learning Schedule
+
+| Day | Activity |
+|-----|----------|
+| Monday | New concept notebook (1–2 hours) |
+| Tuesday | Hands-on coding exercises |
+| Wednesday | Dataset practice / mini-project |
+| Thursday | Quiz or discussion participation |
+| Friday | Assignment work or review |
+| Weekend | Project continuation (optional) |
+
+## Learning Resources
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| Assignments | Phase-based coding assignments | [assignments/](assignments/) |
+| Quizzes | Conceptual quizzes for each phase | [quizzes/](quizzes/) |
+| Projects | Detailed project guides | [projects/](projects/) |
+| Discussions | Community discussion prompts | [discussions/](discussions/) |
+
+## Updated Repository Structure
+
+```
+LearnDataScienceWithEmmanuelOdenyire/
+├── Phase_0_Foundations/
+│   ├── README.md
+│   ├── Week_1_Setup_and_Mindset.ipynb
+│   └── Week_2_Git_GitHub_Colab.ipynb
+├── Phase_1_Python_Math/
+│   └── README.md  (links to Month_01, Month_02, Month_04)
+├── Phase_2_Data_Analysis/
+│   └── README.md  (links to Month_03, Month_05, Month_06)
+├── Phase_3_ML/
+│   ├── README.md
+│   ├── regression_from_scratch.ipynb
+│   └── classification_pipeline.ipynb
+├── Phase_4_DL/
+│   ├── README.md
+│   ├── image_classifier.ipynb
+│   └── text_sentiment_model.ipynb
+├── Phase_5_Specialization/
+│   ├── README.md
+│   ├── Track_1_Data_Engineering/
+│   │   ├── README.md
+│   │   ├── data_pipelines_with_kafka.ipynb
+│   │   └── spark_data_processing.ipynb
+│   ├── Track_2_MLOps/
+│   │   ├── README.md
+│   │   ├── docker_model_deployment.ipynb
+│   │   └── mlflow_experiment_tracking.ipynb
+│   ├── Track_3_NLP/
+│   │   ├── README.md
+│   │   ├── transformers_and_fine_tuning.ipynb
+│   │   └── build_chatbot_qa_system.ipynb
+│   └── Track_4_Computer_Vision/
+│       ├── README.md
+│       ├── object_detection.ipynb
+│       └── transfer_learning.ipynb
+├── Phase_6_Capstone/
+│   ├── README.md
+│   ├── capstone_project_template.ipynb
+│   └── industry_simulation_guide.ipynb
+├── Month_01_Python_Basics/
+│   ├── Week_1_Functions_and_OOP.ipynb
+│   ├── Week_2_Data_Structures.ipynb
+│   ├── Week_3_File_Handling_and_Modules.ipynb
+│   └── Week_4_Mini_Data_Analyzer_Project.ipynb
+├── Month_08_Advanced_Machine_Learning/
+│   ├── feature_engineering_masterclass.ipynb
+│   ├── ensemble_methods_from_scratch.ipynb
+│   └── cross_validation_strategies.ipynb
+├── assignments/
+│   ├── README.md
+│   ├── Phase_0_Assignment_Data_Science_Journey_Plan.md
+│   ├── Phase_1_Assignment_Mini_Data_Analyzer.md
+│   ├── Phase_2_Assignment_Netflix_Dataset_Analysis.md
+│   ├── Phase_3_CAT_House_Price_Prediction.md
+│   ├── Phase_4_Assignment_Image_Text_Classifier.md
+│   ├── Phase_5_Assignment_Specialization_Project.md
+│   └── Phase_6_Final_Capstone_Project.md
+├── quizzes/
+│   ├── README.md
+│   └── Phase_0 through Phase_5 quizzes
+├── projects/
+│   ├── README.md
+│   └── Project_01 through Project_06
+├── discussions/
+│   ├── README.md
+│   └── Discussion_01 through Discussion_06
+├── datasets/
+├── resources/
+├── requirements.txt
+├── verify_setup.py
+└── README.md
+```
