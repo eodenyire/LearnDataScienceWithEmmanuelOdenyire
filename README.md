@@ -1,399 +1,258 @@
-Learn Data Science with Emmanuel Odenyire
-====================================================
+# Learn Data Science with Emmanuel Odenyire
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eodenyire/LearnDataScienceWithEmmanuelOdenyire/blob/main/Phase_0_Foundations/Week_1_Setup_and_Mindset.ipynb)
 
-Welcome to the **Data Science Learning Journey** repository! This repository is designed to accompany our year-long exploration into the field of data science, providing a structured and comprehensive path for learners at all levels.
+Welcome to the **Data Science Bootcamp** — a comprehensive, structured, year-long journey from beginner to industry-ready data scientist.
 
-> 🚀 **New here?** Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!
-
-Repository Overview
--------------------
-
-This repository contains Jupyter Notebooks, datasets, and resources corresponding to each topic covered in our learning journey. The content is organized chronologically, with each month focusing on a specific theme in data science.
-
-Table of Contents
------------------
-
-*   [Introduction](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#introduction)
-    
-*   [Repository Structure](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#repository-structure)
-    
-*   [Getting Started](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#getting-started)
-    
-*   [Monthly Themes](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#monthly-themes)
-    
-*   [Contributing](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#contributing)
-    
-*   [License](https://chatgpt.com/c/67be200c-b580-8005-b216-5b0f3f421173#license)
-    
-
-Introduction
-------------
-
-Data science is a multidisciplinary field that combines statistics, computer science, and domain expertise to extract meaningful insights from data. This journey aims to equip you with the necessary skills and knowledge to excel in this dynamic field.
-
-Repository Structure
---------------------
-
-The repository is organized into directories for each month, reflecting the thematic focus of that period. Each directory contains:
-
-*   **Jupyter Notebooks**: Interactive notebooks with explanations, code examples, and exercises.
-    
-*   **Datasets**: Relevant datasets used in the notebooks and exercises.
-    
-*   **Resources**: Additional reading materials, links, and references.
-    
-
-Example structure:
-
-```
-├── Month_01_Python_Basics
-│   ├── README.md
-│   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb
-│   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb
-│   ├── Day_03_Variables_and_Data_Types.ipynb
-│   ├── Day_04_Operators_and_Expressions.ipynb
-│   └── Day_05_Control_Flow.ipynb
-├── Month_02_Data_Analysis_with_Pandas_and_NumPy
-│   ├── README.md
-│   ├── Week_1_Introduction_to_NumPy.ipynb
-│   ├── Week_2_Advanced_NumPy.ipynb
-│   ├── Week_3_Pandas_Series_and_DataFrames.ipynb
-│   ├── Week_4_Reading_and_Writing_Data.ipynb
-│   └── Week_5_Data_Cleaning_and_Transformation.ipynb
-│   ... (5 notebooks per month, Months 1–12)
-├── datasets
-│   ├── README.md
-│   └── sample_sales.csv
-├── resources
-│   └── README.md
-├── requirements.txt
-├── verify_setup.py
-├── LICENSE
-├── CONTRIBUTING.md
-└── README.md
-```
-
-Getting Started
----------------
-
-To get the most out of this repository:
-
-1.  **Clone the Repository**:
-    ```bash
-    git clone https://github.com/eodenyire/LearnDataScienceWithEmmanuelOdenyire.git
-    cd LearnDataScienceWithEmmanuelOdenyire
-    ```
-    
-2.  **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    
-3.  **Verify Your Setup**:
-    ```bash
-    python verify_setup.py
-    ```
-    
-4.  **Launch Jupyter Notebook**:
-    ```bash
-    jupyter notebook
-    ```
-    
-5.  **Start Learning**: Navigate to `Month_01_Python_Basics` and open the first notebook!
-    
-
-Monthly Themes
---------------
-
-Our learning journey is divided into the following monthly themes:
-
-1.  **Month 1: Python Basics for Data Science**
-    
-    *   Introduction to Python programming
-        
-    *   Variables, data types, and operators
-        
-    *   Control flow, loops, and functions
-        
-    *   Data structures: lists, tuples, dictionaries, and sets
-        
-    *   String manipulation and error handling
-        
-2.  **Month 2: Data Analysis with Pandas & NumPy**
-    
-    *   Introduction to NumPy arrays and operations
-        
-    *   Advanced NumPy features
-        
-    *   Pandas Series and DataFrames
-        
-    *   Reading and writing data with Pandas
-        
-    *   Data cleaning and transformation techniques
-        
-3.  **Month 3: Data Visualization**
-    
-    *   Introduction to Matplotlib for basic plotting
-        
-    *   Advanced plotting techniques with Matplotlib
-        
-    *   Creating statistical plots with Seaborn
-        
-    *   Interactive visualizations with Plotly
-        
-    *   Combining Pandas and visualization libraries for data insights
-        
-4.  **Month 4: Statistics & Probability for Data Science**
-    
-    *   Descriptive statistics and data distributions
-        
-    *   Probability theory and distributions
-        
-    *   Inferential statistics and hypothesis testing
-        
-    *   Regression analysis
-        
-    *   Statistical modeling techniques
-        
-5.  **Month 5: Data Cleaning & Preprocessing Techniques**
-    
-    *   Handling missing data and duplicates
-        
-    *   Data type conversions and feature scaling
-        
-    *   Encoding categorical variables
-        
-    *   Handling imbalanced datasets
-        
-    *   Data augmentation techniques
-        
-6.  **Month 6: Exploratory Data Analysis (EDA) with Real-World Datasets**
-    
-    *   Understanding the EDA process
-        
-    *   Univariate and bivariate analysis
-        
-    *   Identifying patterns and anomalies
-        
-    *   Correlation analysis
-        
-    *   Case studies with real-world datasets
-        
-7.  **Month 7: Introduction to Machine Learning (Supervised & Unsupervised)**
-    
-    *   Overview of machine learning concepts
-        
-    *   Supervised learning algorithms: regression and classification
-        
-    *   Unsupervised learning algorithms: clustering and dimensionality reduction
-        
-    *   Model evaluation metrics
-        
-    *   Implementing machine learning models with scikit-learn
-        
-8.  **Month 8: Advanced Machine Learning Techniques & Feature Engineering**
-    
-    *   Ensemble methods: bagging and boosting
-        
-    *   Hyperparameter tuning and model optimization
-        
-    *   Feature selection and extraction
-        
-    *   Handling overfitting and underfitting
-        
-    *   Introduction to model interpretability
-        
-9.  **Month 9: Deep Learning with TensorFlow & PyTorch**
-    
-    *   Introduction to neural networks
-        
-    *   Building deep learning models with TensorFlow
-        
-    *   Implementing models with PyTorch
-        
-    *   Convolutional Neural Networks (CNNs)
-        
-    *   Recurrent Neural Networks (RNNs) and sequence modeling
-        
-10.  **Month 10: Natural Language Processing (NLP)**
-    
-    *   Text preprocessing techniques
-        
-    *   Tokenization and embedding methods
-        
-    *   Sentiment analysis and text classification
-        
-    *   Sequence-to-sequence models
-        
-    *   Introduction to transformers and BERT
-        
-11.  **Month 11: Time Series Analysis & Forecasting**
-    
-    *   Understanding time series data
-        
-    *   Time series decomposition
-        
-    *   Forecasting models: ARIMA, SARIMA, and Prophet
-        
-    *   Evaluating forecast accuracy
-        
-    *   Case studies in time series forecasting
-        
-12.  **Month 12: End-to-End Projects & Model Deployment**
-    
-    *   Building end-to-end data science projects
-        
-    *   Model deployment strategies
-        
-    *   Introduction to Flask, FastAPI, and Streamlit for web deployment
-        
-    *   Monitoring and maintaining deployed models
-        
-    *   Introduction to MLOps concepts
-        
-
-Contributing
-------------
-
-We welcome contributions to enhance this learning journey. If you have suggestions, improvements, or additional resources, please:
-
-1.  Fork the repository.
-    
-2.  Create a new branch for your feature or improvement.
-    
-3.  Commit your changes with clear messages.
-    
-4.  Submit a pull request detailing your changes.
-    
-
-License
--------
-
-This repository is licensed under the MIT License. You are free to use, modify, and distribute the content, provided proper attribution is given.
-
-Embark on this journey with us and transform your data science skills. Happy learning!
+> 🚀 **New here?** Check out the [Quick Start Guide](QUICKSTART.md) to get started in 5 minutes!  
+> 📅 **Full curriculum?** See the [365-Day Curriculum](CURRICULUM.md) for day-by-day topics.
 
 ---
 
-## Phase-Based Curriculum Structure
+## What Makes This Bootcamp Different?
 
-The bootcamp is organized into **7 phases** spanning 12 months:
+- ✅ **365 days** of structured daily content
+- ✅ **15 hours/day** of curated activities (notebooks, exercises, projects)
+- ✅ **Every notebook** runs directly on **Google Colab** — no setup required
+- ✅ **Three-phase structure** (Phase 1 → 2 → 3) with months nested inside phases
+- ✅ **Week → Day hierarchy** within every month
+- ✅ **MCQ quizzes, CATs, and assignments** at every stage
+- ✅ **Curated resources**: YouTube videos, podcasts, books, online courses
 
-| Phase | Name | Duration | Focus | Directory |
-|-------|------|----------|-------|-----------|
-| Phase 0 | Foundations | 2 weeks | Setup, Git, Colab | [Phase_0_Foundations/](Phase_0_Foundations/) |
-| Phase 1 | Python & Math | 2 months | Python, NumPy, Pandas, Statistics | [Phase_1_Python_Math/](Phase_1_Python_Math/) |
-| Phase 2 | Data Analysis | 2 months | Visualization, Cleaning, EDA | [Phase_2_Data_Analysis/](Phase_2_Data_Analysis/) |
-| Phase 3 | Machine Learning | 2 months | Supervised/Unsupervised ML | [Phase_3_ML/](Phase_3_ML/) |
-| Phase 4 | Deep Learning | 2 months | CNNs, RNNs, Transformers | [Phase_4_DL/](Phase_4_DL/) |
-| Phase 5 | Specialization | 2 months | DE / MLOps / NLP / CV tracks | [Phase_5_Specialization/](Phase_5_Specialization/) |
-| Phase 6 | Capstone | 1 month | End-to-end project | [Phase_6_Capstone/](Phase_6_Capstone/) |
+---
 
-## Specialization Tracks (Phase 5)
-
-| Track | Focus | Directory |
-|-------|-------|-----------|
-| Track 1 | Data Engineering | [Phase_5_Specialization/Track_1_Data_Engineering/](Phase_5_Specialization/Track_1_Data_Engineering/) |
-| Track 2 | MLOps | [Phase_5_Specialization/Track_2_MLOps/](Phase_5_Specialization/Track_2_MLOps/) |
-| Track 3 | NLP | [Phase_5_Specialization/Track_3_NLP/](Phase_5_Specialization/Track_3_NLP/) |
-| Track 4 | Computer Vision | [Phase_5_Specialization/Track_4_Computer_Vision/](Phase_5_Specialization/Track_4_Computer_Vision/) |
-
-## Weekly Learning Schedule
-
-| Day | Activity |
-|-----|----------|
-| Monday | New concept notebook (1–2 hours) |
-| Tuesday | Hands-on coding exercises |
-| Wednesday | Dataset practice / mini-project |
-| Thursday | Quiz or discussion participation |
-| Friday | Assignment work or review |
-| Weekend | Project continuation (optional) |
-
-## Learning Resources
-
-| Resource | Description | Link |
-|----------|-------------|------|
-| Assignments | Phase-based coding assignments | [assignments/](assignments/) |
-| Quizzes | Conceptual quizzes for each phase | [quizzes/](quizzes/) |
-| Projects | Detailed project guides | [projects/](projects/) |
-| Discussions | Community discussion prompts | [discussions/](discussions/) |
-
-## Updated Repository Structure
+## Repository Structure
 
 ```
 LearnDataScienceWithEmmanuelOdenyire/
-├── Phase_0_Foundations/
-│   ├── README.md
+│
+├── Phase_0_Foundations/               ← Days 1–14: Git, Colab, Setup
 │   ├── Week_1_Setup_and_Mindset.ipynb
 │   └── Week_2_Git_GitHub_Colab.ipynb
-├── Phase_1_Python_Math/
-│   └── README.md  (links to Month_01, Month_02, Month_04)
-├── Phase_2_Data_Analysis/
-│   └── README.md  (links to Month_03, Month_05, Month_06)
-├── Phase_3_ML/
+│
+├── Phase_1_Foundations_Python_and_Math/  ← Days 15–126 (Months 1–4)
 │   ├── README.md
-│   ├── regression_from_scratch.ipynb
-│   └── classification_pipeline.ipynb
-├── Phase_4_DL/
+│   ├── Month_01_Python_Basics/
+│   │   ├── README.md                  ← Full day-by-day schedule
+│   │   ├── Week_1_Python_Fundamentals/
+│   │   │   ├── Day_01_Introduction_to_Data_Science_and_Python.ipynb
+│   │   │   ├── Day_02_Setting_Up_Your_Python_Environment.ipynb
+│   │   │   ├── Day_03_Variables_and_Data_Types.ipynb
+│   │   │   ├── Day_04_Operators_and_Expressions.ipynb
+│   │   │   ├── Day_05_Control_Flow.ipynb
+│   │   │   ├── Day_06_Loops_and_Iteration.ipynb
+│   │   │   └── Day_07_Week_1_Review_and_Practice.ipynb
+│   │   ├── Week_2_Functions_and_OOP/
+│   │   │   ├── Day_08_Defining_and_Calling_Functions.ipynb
+│   │   │   ├── Day_09_Lambda_Map_Filter_Reduce.ipynb
+│   │   │   ├── Day_10_Object_Oriented_Programming_Intro.ipynb
+│   │   │   ├── Day_11_Inheritance_and_Polymorphism.ipynb
+│   │   │   ├── Day_12_Exception_Handling_and_Modules.ipynb
+│   │   │   ├── Day_13_File_IO_and_Data_Formats.ipynb
+│   │   │   └── Day_14_Week_2_Review_and_OOP_Project.ipynb
+│   │   ├── Week_3_Data_Structures/
+│   │   │   ├── Day_15_Lists_and_Tuples.ipynb
+│   │   │   ├── Day_16_Dictionaries_and_Sets.ipynb
+│   │   │   ├── Day_17_Strings_and_Regular_Expressions.ipynb
+│   │   │   ├── Day_18_Iterators_and_Generators.ipynb
+│   │   │   ├── Day_19_Decorators_and_Context_Managers.ipynb
+│   │   │   ├── Day_20_Advanced_Python_Patterns.ipynb
+│   │   │   └── Day_21_Month_1_Week_3_Review.ipynb
+│   │   └── Week_4_Advanced_Python_and_Project/
+│   │       ├── Day_22_NumPy_Preview.ipynb  ...  Day_28_Month_1_Final_Review.ipynb
+│   ├── Month_02_Data_Analysis_with_Pandas_and_NumPy/
+│   │   ├── Week_1_Introduction_to_NumPy/ ... Week_4_Reading_and_Writing_Data/
+│   ├── Month_03_Data_Visualization/
+│   │   ├── Week_1_Matplotlib_Basics/ ... Week_4_Plotly_and_Interactive/
+│   └── Month_04_Statistics_and_Probability/
+│       ├── Week_1_Descriptive_Statistics/ ... Week_4_Regression_and_Modeling/
+│
+├── Phase_2_Data_Science_Core/            ← Days 127–238 (Months 5–8)
 │   ├── README.md
-│   ├── image_classifier.ipynb
-│   └── text_sentiment_model.ipynb
-├── Phase_5_Specialization/
+│   ├── Month_05_Data_Cleaning_and_Preprocessing/
+│   ├── Month_06_Exploratory_Data_Analysis/
+│   ├── Month_07_Introduction_to_Machine_Learning/
+│   └── Month_08_Advanced_Machine_Learning/
+│
+├── Phase_3_Advanced_AI_and_Deployment/   ← Days 239–365 (Months 9–12)
 │   ├── README.md
-│   ├── Track_1_Data_Engineering/
-│   │   ├── README.md
-│   │   ├── data_pipelines_with_kafka.ipynb
-│   │   └── spark_data_processing.ipynb
-│   ├── Track_2_MLOps/
-│   │   ├── README.md
-│   │   ├── docker_model_deployment.ipynb
-│   │   └── mlflow_experiment_tracking.ipynb
-│   ├── Track_3_NLP/
-│   │   ├── README.md
-│   │   ├── transformers_and_fine_tuning.ipynb
-│   │   └── build_chatbot_qa_system.ipynb
-│   └── Track_4_Computer_Vision/
-│       ├── README.md
-│       ├── object_detection.ipynb
-│       └── transfer_learning.ipynb
-├── Phase_6_Capstone/
-│   ├── README.md
-│   ├── capstone_project_template.ipynb
-│   └── industry_simulation_guide.ipynb
-├── Month_01_Python_Basics/
-│   ├── Week_1_Functions_and_OOP.ipynb
-│   ├── Week_2_Data_Structures.ipynb
-│   ├── Week_3_File_Handling_and_Modules.ipynb
-│   └── Week_4_Mini_Data_Analyzer_Project.ipynb
-├── Month_08_Advanced_Machine_Learning/
-│   ├── feature_engineering_masterclass.ipynb
-│   ├── ensemble_methods_from_scratch.ipynb
-│   └── cross_validation_strategies.ipynb
-├── assignments/
-│   ├── README.md
-│   ├── Phase_0_Assignment_Data_Science_Journey_Plan.md
-│   ├── Phase_1_Assignment_Mini_Data_Analyzer.md
-│   ├── Phase_2_Assignment_Netflix_Dataset_Analysis.md
-│   ├── Phase_3_CAT_House_Price_Prediction.md
-│   ├── Phase_4_Assignment_Image_Text_Classifier.md
-│   ├── Phase_5_Assignment_Specialization_Project.md
-│   └── Phase_6_Final_Capstone_Project.md
-├── quizzes/
-│   ├── README.md
-│   └── Phase_0 through Phase_5 quizzes
-├── projects/
-│   ├── README.md
-│   └── Project_01 through Project_06
-├── discussions/
-│   ├── README.md
-│   └── Discussion_01 through Discussion_06
-├── datasets/
-├── resources/
+│   ├── Month_09_Deep_Learning/
+│   ├── Month_10_Natural_Language_Processing/
+│   ├── Month_11_Time_Series_Analysis/
+│   └── Month_12_End_to_End_Projects/
+│
+├── assignments/                           ← Weekly + Monthly assignments
+│   ├── Phase_*_Assignment_*.md
+│   ├── Month_01_CAT_Python_Basics.md      ← NEW: Continuous Assessment Test
+│   └── README.md
+│
+├── quizzes/                               ← MCQ quizzes per week/phase
+│   ├── Week_1_MCQ_Python_Fundamentals.md  ← NEW: 35-question MCQ
+│   ├── Week_2_MCQ_Functions_and_OOP.md    ← NEW: 30-question MCQ
+│   ├── Phase_0_Quiz_Foundations.md
+│   └── README.md
+│
+├── projects/                              ← Detailed project guides
+├── discussions/                           ← Community discussion prompts
+├── resources/                             ← Books, videos, courses, podcasts
+├── datasets/                              ← Sample datasets
+│
+├── CURRICULUM.md                          ← ⭐ FULL 365-day curriculum
+├── QUICKSTART.md                          ← 5-minute getting started guide
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
 ├── requirements.txt
-├── verify_setup.py
-└── README.md
+└── verify_setup.py
 ```
+
+---
+
+## Phase Overview
+
+### Phase 0: Pre-Bootcamp Setup (Days 1–14)
+**[→ Phase_0_Foundations/](Phase_0_Foundations/)**
+
+Set up your environment, learn Git and GitHub, and get comfortable with Google Colab.
+
+### Phase 1: Foundations — Python & Mathematics (Days 15–126)
+**[→ Phase_1_Foundations_Python_and_Math/](Phase_1_Foundations_Python_and_Math/)**
+
+| Month | Topic | Days |
+|-------|-------|------|
+| Month 01 | Python Basics | 15–42 |
+| Month 02 | Data Analysis with Pandas & NumPy | 43–70 |
+| Month 03 | Data Visualization | 71–98 |
+| Month 04 | Statistics & Probability | 99–126 |
+
+### Phase 2: Data Science Core (Days 127–238)
+**[→ Phase_2_Data_Science_Core/](Phase_2_Data_Science_Core/)**
+
+| Month | Topic | Days |
+|-------|-------|------|
+| Month 05 | Data Cleaning & Preprocessing | 127–154 |
+| Month 06 | Exploratory Data Analysis | 155–182 |
+| Month 07 | Introduction to Machine Learning | 183–210 |
+| Month 08 | Advanced Machine Learning | 211–238 |
+
+### Phase 3: Advanced AI & Deployment (Days 239–365)
+**[→ Phase_3_Advanced_AI_and_Deployment/](Phase_3_Advanced_AI_and_Deployment/)**
+
+| Month | Topic | Days |
+|-------|-------|------|
+| Month 09 | Deep Learning (TensorFlow, PyTorch) | 239–266 |
+| Month 10 | Natural Language Processing | 267–294 |
+| Month 11 | Time Series Analysis | 295–322 |
+| Month 12 | End-to-End Projects & MLOps | 323–365 |
+
+---
+
+## 15-Hour Daily Schedule
+
+| Time Block | Activity | Duration |
+|------------|----------|----------|
+| 🌅 06:00–11:00 | Core concept notebook + textbook reading | 5 hours |
+| ☀️ 11:00–16:00 | Practice exercises + coding challenges | 5 hours |
+| 🌙 16:00–21:00 | Project work + assignment + quiz review | 5 hours |
+
+---
+
+## Assessment System
+
+| Type | Frequency | Format |
+|------|-----------|--------|
+| MCQ Quizzes | Daily/Weekly | 10–35 multiple-choice questions |
+| Coding Assignments | Weekly | Jupyter notebook project |
+| CAT (Continuous Assessment Tests) | Monthly | 4-hour theory + coding exam |
+| Phase Projects | Per phase | Full end-to-end data science project |
+| Graduation Capstone | Day 365 | Industry-grade project presentation |
+
+---
+
+## Google Colab — Run Any Notebook Instantly
+
+Every notebook in this repository has a **"Open in Colab"** badge at the top. Click it to run in Google Colab — **no installation required!**
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eodenyire/LearnDataScienceWithEmmanuelOdenyire/blob/main/Phase_1_Foundations_Python_and_Math/Month_01_Python_Basics/Week_1_Python_Fundamentals/Day_01_Introduction_to_Data_Science_and_Python.ipynb)
+
+---
+
+## Getting Started Locally
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/eodenyire/LearnDataScienceWithEmmanuelOdenyire.git
+   cd LearnDataScienceWithEmmanuelOdenyire
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Verify Your Setup:**
+   ```bash
+   python verify_setup.py
+   ```
+
+4. **Launch Jupyter:**
+   ```bash
+   jupyter notebook
+   ```
+
+5. **Start Learning:** Navigate to `Phase_0_Foundations/` and begin!
+
+---
+
+## Learning Resources
+
+### 📺 Video Resources
+- [StatQuest with Josh Starmer](https://www.youtube.com/@statquest) — Statistics & ML
+- [3Blue1Brown](https://www.youtube.com/@3blue1brown) — Math & Deep Learning
+- [Andrej Karpathy — Neural Networks: Zero to Hero](https://youtube.com/@AndrejKarpathy)
+- [Sentdex](https://www.youtube.com/@sentdex) — Python & ML
+- [Krish Naik](https://www.youtube.com/@krishnaik06) — End-to-end Data Science
+
+### 📚 Recommended Books
+- *Python Crash Course* — Eric Matthes (Phase 1)
+- *Python for Data Analysis* — Wes McKinney (Phase 1)
+- *Hands-On Machine Learning* — Aurélien Géron (Phase 2)
+- *Deep Learning* — Goodfellow, Bengio, Courville (Phase 3, free online)
+- *Designing Machine Learning Systems* — Chip Huyen (Phase 3)
+
+### 🏫 Online Courses
+- [Kaggle Learn](https://www.kaggle.com/learn) — Free micro-courses
+- [fast.ai](https://www.fast.ai/) — Practical ML & DL
+- [DeepLearning.AI (Coursera)](https://www.coursera.org/deeplearning-ai) — Specializations
+- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)
+
+### 🎧 Podcasts
+- [Talk Python to Me](https://talkpython.fm/)
+- [TWIML AI Podcast](https://twimlai.com/)
+- [DataFramed (DataCamp)](https://www.datacamp.com/podcast)
+
+---
+
+## Contributing
+
+We welcome contributions! Please:
+
+1. Fork the repository
+2. Create a branch: `git checkout -b feature/add-week-5-notebooks`
+3. Make your changes with clear commit messages
+4. Submit a pull request
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+
+---
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+**Start your data science journey today!** Navigate to [Day 1](Phase_1_Foundations_Python_and_Math/Month_01_Python_Basics/Week_1_Python_Fundamentals/Day_01_Introduction_to_Data_Science_and_Python.ipynb) and open it in Colab. 🚀
