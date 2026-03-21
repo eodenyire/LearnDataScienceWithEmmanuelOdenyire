@@ -1,4 +1,4 @@
-# Phase 1: Foundations — Python & Mathematics for Data Science
+# Phase 1: Foundations - Python & Mathematics for Data Science
 
 **Duration:** 4 Months (Days 1–112 of the bootcamp)  
 **Daily Commitment:** 15 hours/day  
